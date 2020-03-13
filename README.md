@@ -1,0 +1,4 @@
+# newsoftcomputer
+## jenny
+### gomez
+- sebas
