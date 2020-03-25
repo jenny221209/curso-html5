@@ -21,7 +21,7 @@ nav {
     padding: 0,8px;     /* Margen interna a los 4 lados en pixeles*/
     
 }
-
+/* CLASE CSS (.) */
 .li-nav {
     display: inline-block;      /* Visualizacion en bloques de linea(Ordena o alinea a un lado)*/
     margin: 5px;              
