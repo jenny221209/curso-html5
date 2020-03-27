@@ -30,6 +30,14 @@ nav {
    
 }
 
+.ul-nav {
+    display: inline-block;
+}
+
+.ul-buscar {
+    display: inline-block;
+}
+
 .li-aside {
 
     margin: 5px;              
@@ -55,8 +63,8 @@ header {
  aside {
     background-color: #EB3F69;
     margin: 5px; 
-    display: inline-block;
-    width: 30%;
+    display: inline-block; 
+    width: 30%;             /**/
     padding: 15px;
  }
 
@@ -67,3 +75,12 @@ header {
     width: 62%;
     padding: 15px;
  }
+
+ .input-form {
+    display: flex;
+ }
+
+ .label-form {
+     display: inline-block;
+ }
+ 

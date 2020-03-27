@@ -12,7 +12,7 @@
 
              <!-- Este es el menú (nav) -->
              <nav>
-                <ul>
+                <ul class="ul-nav">
                     <!-- Etiqueta para hacer una división -->
                     <li class="li-nav"> <a href="index.html">Incio</a> </li>
                     <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
@@ -20,7 +20,7 @@
                     <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>
                 </ul>
 
-                <ul>
+                <ul class="ul-buscar">
                     <label for="">Buscar</label>
                     <input type="text">
                     <button>Buscar</button>
@@ -44,9 +44,6 @@
                         <li class="li-aside"> <a href="#etiquetas-principales"> Etiquetas Principalas </a> </li>
                         <li class="li-aside"> <a href="#etiquetas-principales-html"> Etiquetas Principales dentro de HTML </a> </li>
                         <li class="li-aside"> <a href="#contenedores"> Contenedores </a> </li>
-                        
-
-
                     </ul>
                 </nav>
                 <br> <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br> <br>  
@@ -156,6 +153,7 @@
                     <p>La etiqueta A se usa para crear enlaces (Se puede usar en cualquier parte)</p>
                     <p>La propiedad o atributo que enlaza es el href="</p>
                     <p>LLamamos a páginas con su nombre (Página.html) o a secciones con el # (#seccion1)</p>
+                    <a href="#"> Esto es una a</a>
                 </article>
 
                  <hr>
@@ -166,6 +164,8 @@
                     <h2>IMG (Imagenes)</h2>
                     <p>La etiqueta IMG se usa para enlazar imagenes</p>
                     <p>La propiedad o atributo que enlaza es src=""</p>
+
+                    <img src="images/html5.jpg" width="150" alt="html5" title="esta es una etiqueta img">
                 </article>
 
                 <hr>
@@ -182,6 +182,45 @@
                 <article>
                     <h2>Li (listas)</h2>
                     <p>La etiqueta LI se usa para hacer listas</p>
+
+                    <li>Esta es una li (lista)</li>
+                </article>
+
+                <hr>
+                <br>
+
+                <article>
+                    <h2>Label (Etiqueta)</h2>
+                    <p>Label se usa para hacer titulos o etiquetas</p>
+
+                    <label>Este es un label (Etiqueta)</label>
+                </article>
+
+                <hr>
+                <br>
+
+                <article>
+                    <h2>Input (Caja de texto)</h2>
+                    <p>La etiqueta input son cajas de texto para que algún usuario de la página</p>
+                    <p>ingrese datos a ella. (Formularios de contactenos, Buscar)</p>
+                    <p>El input tiene diferetes tipos (Type)</p>
+                    <p> Tipo: Texto, Email, number, password, image, tel, url, date</p>
+
+                   <form>
+                    <label>Input tipo texto</label> <input class="input-form" type="text">
+                    <label>Input tipo email</label> <input class="input-form" type="email">
+                    <label>Input tipo numero</label> <input class="input-form" type="number">
+                    <label>Input tipo contraseña</label> <input class="input-form" type="password">
+                    <label>Input tipo imagen</label> <input class="input-form" type="image">
+                    <label>Input tipo telefono</label> <input class="input-form" type="tel">
+                    <label>Input tipo dominio web</label> <input class="input-form" type="url">
+                    <label>Input tipo fecha</label> <input class="input-form" type="date">
+                    </form>
+                    
+                    
+
+
+
                 </article>
 
                 <hr>
