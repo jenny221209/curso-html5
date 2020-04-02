@@ -76,11 +76,33 @@ header {
     padding: 15px;
  }
 
+ .article-form {
+    background-image: url("../images/contactenos.jpg");
+ }
+
  .input-form {
-    display: flex;
+    display: inline-block;
  }
 
  .label-form {
      display: inline-block;
+     color: aliceblue;
+
  }
+
+ .div-form-label {
+
+    display: inline-block;
+    width: 220px;
+ }
+
+ .div-form-input {
+
+    display: inline-block;
+    width: 400px;
+ }
+
+ 
+
+ 
  
