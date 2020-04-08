@@ -66,6 +66,7 @@ header {
     display: inline-block; 
     width: 30%;             /**/
     padding: 15px;
+    float: left;   /*Flotando a la izquierda*/
  }
 
  section {
@@ -74,6 +75,7 @@ header {
     display: inline-block;
     width: 62%;
     padding: 15px;
+    float: left;    /*Flotando a la izquierda*/
  }
 
  .article-form {
@@ -106,10 +108,23 @@ header {
     margin: 5px;
  }
 
- .footer {
-    background-image: url("../img/fondo-oscuro.jpg");
+ .footer-html {
+    /*background-image: url("../img/fondo-oscuro.jpg");*/
+    background-color: #EB3F69;
+    float: left;    /*Flotando a la izquierda*/
+    padding: 15px;
+    width: 95%;
  }
-     
+
+ .img-icons {
+     display: inline-block;
+ }
+
+ .h2-article {
+    display: inline-block;
+ }
+    
+ 
  
 
  
