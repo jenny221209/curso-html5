@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Etiqueta Form </title>
+</head>
+
+<body>
+    <h4> Etiqueta form </h4>
+    <p> La etiqueta form es un container que agrupa todos los elementos de un formulario y maneja el evento submit </p>
+
+    <form>
+        <div>
+            <h5> Form Test </h5>
+        </div>
+
+        <div>
+            <div>
+                <label for="input-name"> Nombre: </label>
+                <input type="text" name='input-name' id='input-name' placeholder="Name">
+            </div>
+
+            <div>
+                <label for="input-lastname"> Apellido: </label>
+                <input type="text" name="input-lastname" id="input-lastname" placeholder="LastName">
+            </div>
+
+            <div>
+                <label for=""> Email: </label>
+                <input type="text" name="input-email" id="" placeholder="Email">
+
+            </div>
+            <div>
+                <label for=""> Fecha de nacimiento: </label>
+                <input type="date" name="date-birth" id="date-birth">
+
+            </div>
+
+            <div>
+                <label for=""> Notas </label>
+                <textarea name="textarea-notes" id="textarea-notes" cols="30" rows="10"></textarea>
+
+            </div>
+
+            <div>
+                <input type="submit" value="Save">
+                <button type="submit"> Guardar </button>
+                <button onclick=""> Guardar </button>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+    </form>
+
+    <script>
+        window.alert('Register saved')
+    </script>
+</body>
+
+</html>
